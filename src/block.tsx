@@ -21,7 +21,6 @@ const Block: React.FC<BlockProps> = () => {
         score: score,
         maxScore: 100
       }, '*');
-    }
   }, []);
   return (
     <FPS />
